@@ -8,7 +8,7 @@ import ItineraryDay from "./itineraryCard.jsx";
 import FlightSummaryCard from "./flightSummaryCard.jsx";
 import BookingsTable from "./bookingsTable.jsx";
 import NotesTable from "./notesTable.jsx";
-import ServiceTable from "./ServiceTable.jsx";
+import ServiceTable from "./serviceTable.jsx";
 import TripSummary from "./summaryTable.jsx";
 import ScheduleTable from "./scheduleTable.jsx";
 import PaymentPlan from "./paymentPlan.jsx";
