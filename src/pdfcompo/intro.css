@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+.intro-bg {
+background: linear-gradient(90deg, #6b6bed 35%, #00d4ff 100%);
+padding: 20px 300px;               /* Padding */
+border-radius: 12px;   
+box-shadow: 0 4px 6px rgba(243, 243, 243, 0.1);
+
+}
+
+h1{
+  font-family: 'Inconsolata', monospace;
+  color: aliceblue;
+  font-size: large;
+  block-size: bold;
+}
+.travalcont{
+width: 100%;
+padding: 16px 24px;
+border-radius: 12px; 
+border: 1px solid #e5e7eb;
+background: #ffffff;
+}
+.travaldiv{
+  width: 1105;
+height: 64;
+top: 553px;
+left: 137px;
+
+
+
+  
+  
+}
+.tac-title{
+  color: #593294;
+  font-family: Roboto;
+  font-weight: 700;
+  padding: 20px 20px;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+.ta{
+  padding: 30px;
+  text-decoration: underline;
+  color: blue;
+  
+}
+.ppg{
+  color: #593294;
+  font-size: 28px;
+}

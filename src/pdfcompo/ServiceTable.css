@@ -1,0 +1,96 @@
+.service-container {
+  font-family: Arial, sans-serif;
+  padding: 30px;/* Black background matching the image */
+
+}
+
+.service-title {
+  color: #593294;
+    font-family: Roboto;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.service-table {
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-header {
+  display: flex;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.header-column {
+  padding: 16px;
+  background-color: #593294; /* Dark purple header background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Start with a large radius and refine edges */
+  border-radius: 24px; 
+}
+
+.header-column.service {
+  width: 33.3333%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 0;
+   border-bottom-left-radius: 0;
+}
+
+.header-column.details {
+  width: 66.6666%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+}
+
+
+
+.table-row {
+  display: flex;
+  color: white;
+  min-height: 70px; 
+}
+
+.table-cell {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.service-cell {
+  width: 33.3333%;
+  background-color: #EAE6F0; /* Inner dark purple */
+}
+
+.details-cell {
+  width: 66.6666%;
+  background-color:#EAE6F0; /* Lighter purple/lavender for the details column */
+}
+
+/* Specific rounding for the bottom-left corner of the last row */
+.table-row:last-child .last-row-left {
+  border-bottom-left-radius: 24px;
+}
+
+/* Specific rounding for the bottom-right corner of the last row */
+.table-row:last-child .last-row-right {
+  border-bottom-right-radius: 24px;
+}

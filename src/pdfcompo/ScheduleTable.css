@@ -1,0 +1,129 @@
+.schedule-page-container {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  width: 1206;
+height: 1478;
+top: 6306px;
+left: 99px;
+opacity: 1;
+
+   
+}
+
+.schedule-title {
+    color: #593294;
+    font-family: Roboto;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.schedule-table-grid {
+  
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-header-row {
+  display: flex;
+  gap: 10px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+.header-column {
+  padding: 16px 10px;
+  background-color: #331A5F; /* Header dark purple color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  min-height: 60px;
+}
+
+/* Header Column Widths and Rounding (Rounded on all four corners of the block) */
+.city-header {
+  width: 15%;
+   border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+   border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.activity-header {
+  width: 45%;
+   border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  ;
+}
+.type-header {
+  width: 25%;
+   border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.time-header {
+  width: 15%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.table-data-row {
+  display: flex;
+  gap: 10px;
+  top: 20px;
+  text-align: center;
+  min-height: 40px; 
+}
+
+.data-cell {
+  background-color: #F8F4FF; /* Light background for cells (lavender/off-white) */
+  color: #000000;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-size: 14px;
+}
+
+/* Data Column Widths */
+.city-cell {
+  width: 15%;
+}
+.activity-cell {
+  width: 45%;
+}
+.type-cell {
+  width: 25%;
+}
+.time-cell {
+  width: 15%;
+  justify-content: center;
+}
+
+/* Special Rounding for the Bottom Edge (Last Row) */
+.table-data-row:last-child .last-row-left {
+  border-bottom-left-radius: 20px;
+}
+.table-data-row:last-child .last-row-right {
+  border-bottom-right-radius: 20px;
+}

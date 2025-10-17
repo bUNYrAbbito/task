@@ -1,0 +1,31 @@
+@import "tailwindcss";
+.pdf-wrapper {
+  font-family: Arial, sans-serif;
+  width: 794px; /* A4 width at ~96dpi */
+  margin: 0 auto;
+}
+
+.pdf-content {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+/* Optional for styling the page background */
+body {
+  background-color: #f3f4f6;
+}
+
+/* Reusable card look matching design */
+.card {
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.section-title {
+  color: #5C3596;
+  font-weight: 700;
+}

@@ -1,0 +1,119 @@
+.bookings-container {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  width: 1206.999755859375;
+height: 745;
+top: 3151px;
+left: 100px;
+
+ 
+}
+
+.bookings-title {
+ color: #593294;
+    font-family: Roboto;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.bookings-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-header {
+  display: flex;
+  gap: 10px;
+  color: white;
+  margin-bottom: 3%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.header-column {
+  background-color: #593294;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.header-column.city {
+  width: 15%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0;
+   border-bottom-right-radius: 0;
+  ;
+}
+
+.header-column.check-in,
+.header-column.check-out {
+  width: 15%;
+  border-top-right-radius: px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.header-column.nights {
+  width:10%;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.header-column.hotel-name {
+  width: 40%;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+ 
+}
+
+.table-row {
+  display: flex;
+  gap: 6px;
+  color: white;
+  text-align: center;
+}
+
+.table-cell {
+  background-color: #d2c5e9;
+  color: #000000;
+  padding: 10px;
+
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+  word-break: break-word;
+  min-height: 50px;
+}
+
+.table-cell:last-child {
+  margin-right: 0;
+}
+
+.city-cell {
+  width: 20%;
+}
+
+.check-in-cell,
+.check-out-cell {
+  width: 15%;
+}
+
+.nights-cell {
+  width: 10%;
+}
+
+.hotel-name-cell {
+  width: 40%;
+}

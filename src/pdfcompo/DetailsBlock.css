@@ -1,0 +1,59 @@
+.details-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+   /* Black background */
+  
+}
+
+.details-title {
+color: #593294;
+    font-family: Roboto;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.info-block-wrapper {
+   
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px 50px;
+  
+  background-color: #F8F4FF; /* Light background matching the image */
+  color: #000000;
+  border-radius: 20px;
+  
+  /* Applying a purple border for a subtle glow/definition, as hinted by the purple line in the image */
+  border: 1px solid #331A5F;
+  box-shadow: 0 0 10px rgba(51, 26, 95, 0.5); 
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /* Distribute space evenly */
+  width: 30%; 
+}
+
+.info-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #331A5F; /* Use a dark purple for the label text */
+  margin-bottom: 5px;
+}
+
+.info-value {
+  font-size: 18px;
+  font-weight: normal;
+  color: #000000;
+}

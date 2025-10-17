@@ -1,0 +1,135 @@
+.summary-page-container {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  
+}
+
+.summary-title {
+   color: #593294;
+    font-family: Roboto;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.summary-table-grid {
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-header-row {
+  display: flex;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+.header-column {
+  padding: 16px 10px;
+  background-color: #331A5F; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+/* Header Column Widths and Rounding */
+.category-header {
+  width: 15%;
+  border-top-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.count-header {
+  width: 10%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.detail-header {
+  width: 50%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.status-header {
+  width: 25%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+
+
+.table-data-row {
+  display: flex;
+  text-align: left;
+  min-height: 80px; 
+}
+
+.data-cell {
+  background-color: #F8F4FF; /* Light background for cells (lavender/off-white) */
+  color: #000000;
+  padding: 16px 10px;
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-size: 14px;
+}
+
+/* Data Column Widths */
+.category-cell {
+  width: 15%;
+  font-weight: bold;
+}
+
+.count-cell {
+  width: 10%;
+  justify-content: center;
+}
+
+.detail-cell {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.status-cell {
+  width: 25%;
+  justify-content: center;
+}
+
+/* Special Rounding for the TOP and BOTTOM edges of the body */
+
+/* Top-left and Top-right corners of the first data row */
+.table-data-row:first-child .first-row-left {
+  border-top-left-radius: 20px;
+}
+.table-data-row:first-child .first-row-right {
+  border-top-right-radius: 20px;
+}
+
+/* Bottom-left and Bottom-right corners of the last data row */
+.table-data-row:last-child .last-row-left {
+  border-bottom-left-radius: 20px;
+}
+.table-data-row:last-child .last-row-right {
+  border-bottom-right-radius: 20px;
+}
+
+/* Overwrite corner rounding for cells that are NOT on the rounded edges */
+.data-cell:not(.first-row-left):not(.first-row-right):not(.last-row-left):not(.last-row-right) {
+    border-radius: 0;
+}

@@ -1,0 +1,85 @@
+/* General Layout and Background */
+.summary-page-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.summary-title {
+   color: #593294;
+    font-family: Roboto;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.summary-list {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Spacing between rows */
+}
+
+.flight-row {
+  display: flex;
+  align-items: center;
+  border-radius: 15px; /* Overall row rounding */
+  overflow: hidden;
+  height: 60px;
+}
+
+/* Left Section: Date Label with Arrow */
+.flight-date-label {
+  padding: 15px 35px 15px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #331A5F; /* Dark purple background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 180px; /* Fixed width for the date label */
+  flex-shrink: 0;
+}
+
+/* Creating the diagonal arrow shape using pseudo-elements */
+.flight-date-label::after {
+  content: '';
+  position: absolute;
+  right: -25px; /* Pushes the triangle into the right section */
+  top: 0;
+  height: 0;
+  width: 0;
+  /* Creates the triangle using border technique: top & bottom define height, left defines width/angle */
+  border-width: 30px 0 30px 25px; 
+  border-style: solid;
+  /* Color matches the label's background */
+  border-color: transparent transparent transparent #331A5F;
+  z-index: 1;
+}
+
+/* Right Section: Flight Information */
+.flight-info-value {
+  padding: 15px 20px 15px 40px; /* Extra padding on left to accommodate arrow overlap */
+  color: #000000;
+  font-size: 16px;
+  background-color: #F8F4FF; /* Light lavender background */
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  position: relative;
+  font-weight: 500;
+  
+  /* Apply rounding to the right side of the row */
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
